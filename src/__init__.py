@@ -8,6 +8,7 @@ from .parser import NewsParser
 from .display import NewsDisplay
 from .browser import NewsBrowser
 from .scraper import IlPostScraper
+from .summarizer import Summarizer
 
 __all__ = [
     'Article',
@@ -15,5 +16,6 @@ __all__ = [
     'NewsParser',
     'NewsDisplay',
     'NewsBrowser',
-    'IlPostScraper'
+    'IlPostScraper',
+    'Summarizer'
 ]
